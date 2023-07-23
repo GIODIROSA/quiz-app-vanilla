@@ -2,10 +2,9 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style.css" />
-    <title>App Quiz</title>
+    <link rel="stylesheet" href="style.css" />
+    <title>Quiz 2 vanilla</title>
   </head>
   <body>
     <div id="container">
@@ -17,7 +16,7 @@
       <section>
         <div id="resultado"></div>
 
-        <form name="quizForm" onsubmit="verificarRespuestas()">
+        <form name="quizForm" onsubmit="return verificarRespuestas()">
           <h3>1. Angular es definido como:</h3>
 
           <input type="radio" name="p1" value="a" /> a. Framework <br />
@@ -60,6 +59,6 @@
       </section>
     </div>
 
-    <script type="module" src="/main.js"></script>
+    <script src="main.js"></script>
   </body>
 </html>

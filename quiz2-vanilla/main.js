@@ -20,7 +20,7 @@ function verificarRespuestas() {
 
   const resultado = document.getElementById("resultado");
   resultado.innerHTML =
-    "<h3>obtuvista<span>" +
+    "<h3>obtuviste <span>" +
     puntos +
     "</span>de <span>" +
     total +
@@ -28,4 +28,3 @@ function verificarRespuestas() {
 
   return false;
 }
-
